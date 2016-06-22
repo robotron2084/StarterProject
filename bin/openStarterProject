@@ -1,0 +1,15 @@
+#!/bin/bash
+# Whenever I create a project I always create a shell script to open the project.
+# This is a simple script but sometimes these scripts might have options such as
+# specific branches or other special considerations.
+#
+# This has the additional benefit that if I hang Unity I can simply Ctrl-C
+# and up-arrow to get back to where I was.
+#
+# I have many, many versions of Unity on my computer, and generally every project
+# has a specific version it is coded to. I will frequently upgrade my projects 
+# when it is a good time to do so, but I don't like sudden upgrades that 
+# break things.
+
+UNITY_VERSION=5.3.1
+/Applications/Unity$UNITY_VERSION/Unity.app/Contents/MacOS/Unity -projectPath `pwd`/StarterProject
