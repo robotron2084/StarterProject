@@ -17,7 +17,7 @@ public class Baddy : MonoBehaviour
     rigid = GetComponent<Rigidbody>();
   }
 
-  void Start()
+  public void Init()
   {
     rigid.AddForce(transform.forward * speed);
     state = GameStates.Alive;

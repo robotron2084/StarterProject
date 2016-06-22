@@ -59,6 +59,7 @@ public class SpawnPoint : MonoBehaviour
     baddy.transform.position = transform.position + item.posDelta;
     baddy.transform.rotation = transform.rotation;
     baddy.speed += item.speedModifier;
+    baddy.Init();
   }
 
 }
