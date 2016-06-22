@@ -1,0 +1,7 @@
+*.csproj
+*.sln
+models
+notes
+*.sublime-project
+*.sublime-workspace
+StarterProject/Library/
